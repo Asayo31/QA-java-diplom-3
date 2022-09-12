@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="09f824c2-55fb-409d-a52f-098d8895fe50" name="Changes" comment="QA-java-diplom-3_commit_full_scope">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977074053.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977074053.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977470319.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977470319.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977685950.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977685950.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977963125.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977963125.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662978329443.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662978329443.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662978638306.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662978638306.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662978882104.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662978882104.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/apimethods/RestAssuredBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/apimethods/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/UserCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobject/ForgotPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobject/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobject/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobject/PersonalOfficePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobject/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConstructorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoToPersonalOfficeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LogoutUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RegistrationUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/apimethods/RestAssuredBurger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/apimethods/UserClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Token.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/UserCredentials.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pageobject/ForgotPasswordPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pageobject/LoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pageobject/MainPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pageobject/PersonalOfficePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pageobject/RegistrationPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/LoginUserTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/RegistrationUserTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginUserTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RegistrationUserTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ConstructorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/GoToPersonalOfficeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/LoginUserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/LogoutUserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/RegistrationUserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/chromedriver 2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/QA-java-diplom-3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EfA6w5G2IuUjbJcCRALy7jOObR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RegistrationUserTest.isCorrectRegistrationUser">
+    <configuration name="LoginUserTest.isCorrectLoginViaRegistrationPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginUserTest" />
+      <option name="METHOD_NAME" value="isCorrectLoginViaRegistrationPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationUserTest.isCorrectRegistrationUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationUserTest" />
+      <option name="METHOD_NAME" value="isCorrectRegistrationUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationUserTest.isRegistrationFailedShortPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationUserTest" />
+      <option name="METHOD_NAME" value="isRegistrationFailedShortPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.praktikum.stellarburgers in QA-java-diplom-3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.praktikum.stellarburgers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.praktikum.stellarburgers" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RegistrationUserTest.isCorrectRegistrationUser" />
+        <item itemvalue="JUnit.LoginUserTest.isCorrectLoginViaRegistrationPage" />
+        <item itemvalue="JUnit.RegistrationUserTest.isRegistrationFailedShortPassword" />
+        <item itemvalue="JUnit.ru.praktikum.stellarburgers in QA-java-diplom-3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09f824c2-55fb-409d-a52f-098d8895fe50" name="Changes" comment="" />
+      <created>1662976092859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662976092859</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="QA-java-diplom-3_commit_full_scope" />
+    <option name="LAST_COMMIT_MESSAGE" value="QA-java-diplom-3_commit_full_scope" />
+  </component>
+</project>

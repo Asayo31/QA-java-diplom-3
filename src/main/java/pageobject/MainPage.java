@@ -2,6 +2,7 @@ package pageobject;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -28,25 +29,25 @@ public class MainPage {
     @FindBy(how = How.XPATH, using = ".//*[@class='tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']")
     private SelenideElement selectedSection;
 
-    // метод клика по кнопке-ссылки "Регистрация" на главной странице
+    @Step("метод клика по кнопке-ссылки Регистрация на главной странице")
     public LoginPage clickButtonLogin() {
         buttonLogin.click();
         return Selenide.page(LoginPage.class);
     }
 
-    // метод получения текста кнопки на главной странице
+    @Step ("метод получения текста кнопки на главной странице")
     public String getTextButtonLogin() {
         String textButton = buttonLogin.getText();
         return textButton;
     }
 
-    // метод клика по кнопке «Личный кабинет» на главной странице с переходом на страницу Логина
+    @Step ("метод клика по кнопке «Личный кабинет» на главной странице с переходом на страницу Логина")
     public LoginPage clickButtonPersonalOfficeLoginPage() {
         buttonPersonalOffice.click();
         return Selenide.page(LoginPage.class);
     }
 
-    // метод клика по кнопке «Личный кабинет» на главной странице с переходом в Личный кабинет
+    @Step ("метод клика по кнопке «Личный кабинет» на главной странице с переходом в Личный кабинет")
     public PersonalOfficePage clickButtonPersonalOffice() {
         buttonPersonalOffice.click();
         return Selenide.page(PersonalOfficePage.class);
@@ -56,25 +57,25 @@ public class MainPage {
         return url();
     }
 
-    // метод клика по невыбранному разделу Булка
+    @Step ("метод клика по невыбранному разделу Булка")
     public MainPage clickUnselectedSectionBulka() {
         unselectedSectionBulka.click();
         return Selenide.page(MainPage.class);
     }
 
-    // метод клика по невыбранному разделу Соусы
+    @Step ("метод клика по невыбранному разделу Соусы")
     public MainPage clickUnselectedSectionSauce() {
         unselectedSectionSauce.click();
         return Selenide.page(MainPage.class);
     }
 
-    // метод клика по невыбранному разделу Начинки
+    @Step ("метод клика по невыбранному разделу Начинки")
     public MainPage clickUnselectedSectionFilling() {
         unselectedSectionFilling.click();
         return Selenide.page(MainPage.class);
     }
 
-    // метод получения имени выбранного раздела
+    @Step ("метод получения имени выбранного раздела")
     public String getNameSelectedSection() {
         return selectedSection.getText();
     }

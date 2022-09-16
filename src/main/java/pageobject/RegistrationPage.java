@@ -3,6 +3,7 @@ package pageobject;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -20,43 +21,43 @@ public class RegistrationPage {
     @FindBy(how = How.XPATH, using = ".//*[text()='Войти']")
     private SelenideElement linkLogin;
 
-    // метод ввода в поле "Имя"
+    @Step ("метод ввода в поле Имя")
     public RegistrationPage inputName(String name) {
         fieldInputUserData.get(0).setValue(name);
         return this;
     }
 
-    // метод ввода в поле "email"
+    @Step ("метод ввода в поле email")
     public RegistrationPage inputEmail(String email) {
         fieldInputUserData.get(1).setValue(email);
         return this;
     }
 
-    // метод ввода в поле "Пароль"
+    @Step ("метод ввода в поле Пароль")
     public RegistrationPage inputPassword(String password) {
         fieldInputUserData.get(2).setValue(password);
         return this;
     }
 
-    // метод клика по кнопке "Зарегистрироваться" с переходом на страницу логина
+    @Step ("метод клика по кнопке Зарегистрироваться с переходом на страницу логина")
     public LoginPage clickButtonRegistration() {
         buttonRegistration.click();
         return Selenide.page(LoginPage.class);
     }
 
-    // метод клика по кнопке "Зарегистрироваться" с появлением ошибок в заполненных полях
+    @Step ("метод клика по кнопке Зарегистрироваться с появлением ошибок в заполненных полях")
     public RegistrationPage clickButtonRegistrationError() {
         buttonRegistration.click();
         return this;
     }
 
-    // метод получения текста ошибки при некорректном пароле
+    @Step ("метод получения текста ошибки при некорректном пароле")
     public String getTextErrorBadPassword() {
         String textError = textErrorBadPassword.getText();
         return textError;
     }
 
-    // метод клика по ссылке "Войти"
+    @Step ("метод клика по ссылке Войти")
     public LoginPage clickLinkLogin() {
         linkLogin.click();
         return Selenide.page(LoginPage.class);

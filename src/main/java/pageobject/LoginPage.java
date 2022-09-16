@@ -2,6 +2,7 @@ package pageobject;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -24,31 +25,31 @@ public class LoginPage {
     @FindBy(how = How.XPATH, using = ".//*[text()='Восстановить пароль']")
     private SelenideElement linkForgotPassword;
 
-    // метод клика по ссылки "Регистрация" на странице логина
+    @Step("метод клика по ссылки Регистрация на странице логина")
     public RegistrationPage clickLinkRegistration() {
         linkRegistration.click();
         return Selenide.page(RegistrationPage.class);
     }
 
-    // метод ввода в поле "email"
+    @Step ("метод ввода в поле email")
     public LoginPage inputEmail(String email) {
         fieldInputName.setValue(email);
         return this;
     }
 
-    // метод ввода в поле "Пароль"
+    @Step ("метод ввода в поле Пароль")
     public LoginPage inputPassword(String password) {
         fieldInputPassword.setValue(password);
         return this;
     }
 
-    // метод клика по кнопке "Войти"
+    @Step ("метод клика по кнопке Войти")
     public MainPage clickButtonLogin() {
         buttonLogin.click();
         return Selenide.page(MainPage.class);
     }
 
-    // метод клика по ссылке "Восстановить пароль"
+    @Step ("метод клика по ссылке Восстановить пароль")
     public ForgotPasswordPage clickLinkForgotPassword() {
         linkForgotPassword.click();
         return Selenide.page(ForgotPasswordPage.class);

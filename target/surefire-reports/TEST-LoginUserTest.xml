@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="LoginUserTest" time="16.662" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="LoginUserTest" time="25.144" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -35,7 +35,7 @@
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="12.5.1"/>
+    <property name="os.version" value="12.6"/>
     <property name="user.home" value="/Users/anastasiachernysheva"/>
     <property name="user.timezone" value="Europe/Samara"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
@@ -62,8 +62,8 @@
     <property name="java.vendor.version" value="Corretto-11.0.15.9.1"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="LoginUserTest" name="isCorrectLoginViaForgotPasswordPage" time="4.89"/>
-  <testcase classname="LoginUserTest" name="isCorrectLoginWithLoginButton" time="3.844"/>
-  <testcase classname="LoginUserTest" name="isCorrectLoginViaRegistrationPage" time="4.195"/>
-  <testcase classname="LoginUserTest" name="isCorrectLoginWithPersonalOffice" time="3.733"/>
+  <testcase classname="LoginUserTest" name="isCorrectLoginViaForgotPasswordPage" time="8.158"/>
+  <testcase classname="LoginUserTest" name="isCorrectLoginWithLoginButton" time="4.682"/>
+  <testcase classname="LoginUserTest" name="isCorrectLoginViaRegistrationPage" time="5.92"/>
+  <testcase classname="LoginUserTest" name="isCorrectLoginWithPersonalOffice" time="6.384"/>
 </testsuite>

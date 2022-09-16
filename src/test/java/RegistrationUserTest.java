@@ -1,4 +1,5 @@
 import apimethods.UserClient;
+import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
 import model.Token;
 import model.User;

@@ -2,6 +2,7 @@ package pageobject;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -20,25 +21,25 @@ public class PersonalOfficePage {
     private SelenideElement buttonLogout;
 
 
-    // метод получения текста «В этом разделе вы можете изменить свои персональные данные» в "Личном кабинете"
+    @Step("метод получения текста «В этом разделе вы можете изменить свои персональные данные» в Личном кабинете")
     public String getTextPersonalOffice() {
         String textPersonalOffice = textFieldPersonalOffice.getText();
         return textPersonalOffice;
     }
 
-    // метод клика по кнопке «Конструктор» на странице личного кабинета с переходом на главную страницу
+    @Step ("метод клика по кнопке «Конструктор» на странице личного кабинета с переходом на главную страницу")
     public MainPage clickButtonConstructor() {
         buttonConstructor.click();
         return Selenide.page(MainPage.class);
     }
 
-    // метод клика по логотипу  Stellar Burgers на странице личного кабинета с переходом на главную страницу
+    @Step ("метод клика по логотипу  Stellar Burgers на странице личного кабинета с переходом на главную страницу")
     public MainPage clickLogoStellarBurgers() {
         logoStellarBurgers.click();
         return Selenide.page(MainPage.class);
     }
 
-    // метод клика по кнопке «Выход» на странице личного кабинета с переходом на страницу логина
+    @Step ("метод клика по кнопке «Выход» на странице личного кабинета с переходом на страницу логина")
     public LoginPage clickButtonLogout() {
         buttonConstructor.click();
         return Selenide.page(LoginPage.class);

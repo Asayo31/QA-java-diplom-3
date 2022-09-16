@@ -5,72 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f824c2-55fb-409d-a52f-098d8895fe50" name="Changes" comment="QA-java-diplom-3_commit_full_scope">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977074053.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977074053.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977470319.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977470319.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977685950.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977685950.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977963125.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662977963125.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662978329443.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662978329443.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662978638306.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662978638306.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662978882104.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1662978882104.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apimethods/RestAssuredBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apimethods/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/UserCredentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobject/ForgotPasswordPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobject/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobject/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobject/PersonalOfficePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobject/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConstructorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GoToPersonalOfficeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LogoutUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RegistrationUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver 2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/apimethods/RestAssuredBurger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/apimethods/UserClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/Token.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/UserCredentials.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pageobject/ForgotPasswordPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pageobject/LoginPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pageobject/MainPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pageobject/PersonalOfficePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pageobject/RegistrationPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/LoginUserTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/RegistrationUserTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginUserTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RegistrationUserTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/ConstructorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/GoToPersonalOfficeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/LoginUserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/LogoutUserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/RegistrationUserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/chromedriver 2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/QA-java-diplom-3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/UserCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/UserCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/ForgotPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/PersonalOfficePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/PersonalOfficePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationUserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +105,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662976092859</updated>
     </task>
+    <task id="LOCAL-00001" summary="QA-java-diplom-3_commit_full_scope">
+      <created>1662979469925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662979469925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

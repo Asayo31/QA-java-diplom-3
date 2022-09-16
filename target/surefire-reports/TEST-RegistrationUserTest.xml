@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="RegistrationUserTest" time="23.902" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="RegistrationUserTest" time="42.482" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -35,7 +35,7 @@
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="12.5.1"/>
+    <property name="os.version" value="12.6"/>
     <property name="user.home" value="/Users/anastasiachernysheva"/>
     <property name="user.timezone" value="Europe/Samara"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
@@ -62,6 +62,6 @@
     <property name="java.vendor.version" value="Corretto-11.0.15.9.1"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="RegistrationUserTest" name="isRegistrationFailedShortPassword" time="13.516"/>
-  <testcase classname="RegistrationUserTest" name="isCorrectRegistrationUser" time="10.386"/>
+  <testcase classname="RegistrationUserTest" name="isRegistrationFailedShortPassword" time="25.195"/>
+  <testcase classname="RegistrationUserTest" name="isCorrectRegistrationUser" time="17.287"/>
 </testsuite>

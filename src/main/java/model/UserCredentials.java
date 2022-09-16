@@ -1,5 +1,6 @@
 package model;
 
+import io.qameta.allure.Step;
 import lombok.Data;
 
 @Data

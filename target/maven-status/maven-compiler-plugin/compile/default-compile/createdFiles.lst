@@ -1,0 +1,10 @@
+pageobject/ForgotPasswordPage.class
+apimethods/RestAssuredBurger.class
+model/UserCredentials.class
+pageobject/MainPage.class
+apimethods/UserClient.class
+model/User.class
+pageobject/PersonalOfficePage.class
+pageobject/LoginPage.class
+pageobject/RegistrationPage.class
+model/Token.class
